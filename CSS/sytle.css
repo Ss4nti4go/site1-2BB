@@ -91,10 +91,16 @@ article {
     border-radius: 6px;
 }
 article span{
+    height: 72px;
+    width: 72px;
     font-size: 20px;
+    display: inline-grid;
     background: linear-gradient(140deg, #6a08f4, #fb0351);
-    padding: 1.2rem;
-    border-radius: 70%; 
+    padding: 0.4rem;
+    border-radius: 50%; 
+    place-items: center;
+    color: white;
+  
 
 }
 footer {
